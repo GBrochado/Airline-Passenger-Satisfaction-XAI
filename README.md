@@ -14,23 +14,25 @@ By systematically integrating these approaches, the project provides insights in
 ### Content
 The repository includes:
 
-Notebooks Folder: Jupyter notebooks detailing different tasks of the project.
-README File: This document, summarizing the project objectives and structure.
-Requirements.txt: To run the notebook
+**Notebook**: Jupyter notebook detailing different tasks of the project.
+
+**README File**: This document, summarizing the project objectives and structure.
+
+**Requirements.txt**: To run the notebook
 
 ### Objective: Conduct feature importance analysis and dataset preprocessing.
 
 Understanding and trusting machine learning models is crucial, especially in fields with high stakes or user-centric applications. This project investigates a systematic framework for explainability by integrating:
 
-Pre-Modeling Techniques: Feature analysis and preprocessing to improve initial interpretability.
-In-Modeling Techniques: Intrinsically interpretable models, such as Decision Trees, for direct insights into predictions.
-Post-Modeling Techniques: Advanced methods like SHAP values, Partial Dependence Plots, and Anchor Explanations to clarify the decision-making process of black-box models like XGBoost.
+- **Pre-Modeling Techniques**: Feature analysis and preprocessing to improve initial interpretability.
+- **In-Modeling Techniques**: Intrinsically interpretable models, such as Decision Trees, for direct insights into predictions.
+- **Post-Modeling Techniques**: Advanced methods like SHAP values, Partial Dependence Plots, and Anchor Explanations to clarify the decision-making process of black-box models like XGBoost.
 
 ### Key Insights
 
-- Feature Importance: Attributes such as flight distance, online check-in, and in-flight service play a pivotal role in predicting passenger satisfaction.
-- Model Comparison: While glass-box models provide inherent interpretability, black-box models achieve superior performance, necessitating post-hoc explainability methods.
-- Explanation Quality: Most explanations were accurate, but challenges remain in simplifying complex decision boundaries, especially in edge cases.
+- **Feature Importance**: Attributes such as flight distance, online check-in, and in-flight service play a pivotal role in predicting passenger satisfaction.
+- **Model Comparison**: While glass-box models provide inherent interpretability, black-box models achieve superior performance, necessitating post-hoc explainability methods.
+- **Explanation Quality**: Most explanations were accurate, but challenges remain in simplifying complex decision boundaries, especially in edge cases.
 
 ### Usage
 To run the application:
