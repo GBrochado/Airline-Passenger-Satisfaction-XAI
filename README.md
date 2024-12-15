@@ -14,11 +14,9 @@ By systematically integrating these approaches, the project provides insights in
 ### Content
 The repository includes:
 
-**Notebook**: Jupyter notebook detailing different tasks of the project.
-
-**README File**: This document, summarizing the project objectives and structure.
-
-**Requirements.txt**: To run the notebook
+- **Notebook**: Jupyter notebook detailing different tasks of the project.
+- **README File**: This document, summarizing the project objectives and structure.
+- **Requirements.txt**: To run the notebook
 
 ### Objective: Conduct feature importance analysis and dataset preprocessing.
 
